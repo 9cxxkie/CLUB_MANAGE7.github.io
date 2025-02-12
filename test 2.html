@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKU NKC club</title>
+    <style>
+           body {
+            font-family: Motley Forces, Motley Forces;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background-color: #FECCDC;
+            padding: 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header .logo {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #c49EEE;
+        }
+
+        header .menu a {
+            text-decoration: none;
+            color: #333;
+            font-size: 10em;
+            margin-right: 10px;
+        }
+
+        /* Filter buttons */
+        .filter {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .filter button {
+            padding: 10px 15px;
+            border: 1px solid #A0C1EF;
+            border-radius: 20px;
+            background-color: #fff;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .filter button.active {
+            background-color: #c49EEE;
+            color: #fff;
+        }
+
+        /* Cards grid */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #E6CEF4;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card .content h3 {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        .card .content p {
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        .card .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #fff;
+            color: #717171;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">CLUB MANAGE</div>
+        <nav class="menu">
+        </nav>
+    </header>
+
+    <div class="filter">
+        <a href="test 2.html"><button class="active">หน้าหลัก</button></a>
+        <a href="test menu นศท.html"><button>นศท.</button></a>
+        <a href="test menu การเรียน.html"><button>การเรียน</button></a>
+        <a href="test menu กีฬา.html"><button>กีฬา</button></a>
+        <a href="test menu บันเทิง.html"></a><button>บันเทิง</button>
+        <a href="#"><button>ประเมินความพึงพอใจ</button></a>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125111.png" alt="Game 1">
+            <div class="content">
+                <h3>นักศึกษาวิชาทหาร</h3>
+                <p>หัวหน้า อาจารย์ จักรี ทำมาน</p>
+                <a href="testหน้าสมัคร 1.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125157.png" alt="Game 2">
+            <div class="content">
+                <h3>พักใจอ่านการ์ตูนที่ห้องสมุด</h3>
+                <p>หัวหน้า จิตตานันท์ บรรจงพิศานติ์</p>
+                <a href="testหน้าสมัคร 2.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125253.png" alt="Game 3">
+            <div class="content">
+                <h3>DRAWING WITH US</h3>
+                <p>หัวหน้า กุลพัช ด่านรัตนะ</p>
+                <a href="testหน้าสมัคร 3.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125347.png" alt="Game 4">
+            <div class="content">
+                <h3>ห้องสมุด</h3>
+                <p>หัวหน้า มะนาว</p>
+                <a href="testหน้าสมัคร 4.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125748.png" alt="Game 4">
+            <div class="content">
+                <h3>F O O B A L L</h3>
+                <p>หัวหน้าดีจัง</p>
+                <a href="testหน้าสมัคร 5.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 125551.png" alt="Game 4">
+            <div class="content">
+                <h3>แบดมินตัน</h3>
+                <p>หัวหน้า ปาลิดา ชัยศรี</p>
+                <a href="testหน้าสมัคร 6.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 130209.png" alt="Game 4">
+            <div class="content">
+                <h3>I J O E S P O R T </h3>
+                <p>หัวหน้า รัฐวัฒน์ ปุริวัฒน์</p>
+                <a href="testหน้าสมัคร 7.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 130009.png" alt="Game 4">
+            <div class="content">
+                <h3>พัฒนาสมองประลองบอร์ดเกม</h3>
+                <p>หัวหน้า วณันท์ธรษ์ ฉัตรชมชื่น</p>
+                <a href="testหน้าสมัคร 8.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2025-01-29 130047.png" alt="Game 4">
+            <div class="content">
+                <h3>สร้างสรรค์งานฝีมือ เสริมสร้างจินตนาการ</h3>
+                <p>หัวหน้า ภณกฤศ ตริยาวธัญญู</p>
+                <a href="testหน้าสมัคร 9.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2024-11-30 154609.png" alt="Game 4">
+            <div class="content">
+                <h3>W A T C H I N G  M O V i E S (ENG)</h3>
+                <p>หัวหน้า ณัฎฐณิชา ดวงแก้ว</p>
+                <a href="testหน้าสมัคร 10.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2024-11-30 154609.png" alt="Game 4">
+            <div class="content">
+                <h3>คาราโอเกะถ้าคิดว่าเป๊ะก็มา</h3>
+                <p>หัวหน้า ณัชชา</p>
+                <a href="testหน้าสมัคร 10.html" class="btn">view</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Screenshot 2024-11-30 154609.png" alt="Game 4">
+            <div class="content">
+                <h3>เต้น/รำ แสนสนุก</h3>
+                <p>หัวหน้า ใบหยก </p>
+                <a href="testหน้าสมัคร 10.html" class="btn">view</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
