@@ -1,1 +1,0 @@
-# CLUB_MANAGE7.github.io
